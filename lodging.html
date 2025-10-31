@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Taniti – Lodging</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container topbar">
+                <div class="logo">TANITI</div>
+                <nav aria-label="Primary">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="food.html">Food</a>
+                        </li>
+                        <li>
+                            <a href="lodging.html" aria-current="page">Lodging</a>
+                        </li>
+                        <li>
+                            <a href="amenities.html">Amenities</a>
+                        </li>
+                        <li>
+                            <a href="transportation.html">Transportation</a>
+                        </li>
+                        <li>
+                            <a href="entertainment.html">Entertainment</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            <section class="section text-center">
+                <h1 class="h1">Lodging Options</h1>
+                <form class="search-form">
+                    <div class="search-grid">
+                        <input class="input" placeholder="Price range (e.g., under $200)" aria-label="Price range"/>
+                        <div class="search-column">
+                            <input class="input" placeholder="Family size" type="number" min="1" aria-label="Number of guests"/>
+                            <button class="btn btn-primary" type="submit">Search Hotels</button>
+                        </div>
+                        <select class="input" aria-label="Amenities">
+                            <option value="">Select Amenities</option>
+                            <option>Pool</option>
+                            <option>Kitchen</option>
+                            <option>Breakfast</option>
+                            <option>Wi-Fi</option>
+                            <option>Ocean View</option>
+                        </select>
+                    </div>
+                </form>
+            </section>
+
+            <div class="grid">
+                <section class="grid cards">
+                    <article class="section">
+                        <h3>Hostel</h3>
+                        <p class="small">Budget dorms, common spaces.</p>
+                        <a class="btn" href="#">Book Now</a>
+                    </article>
+                    <article class="section">
+                        <h3>Family-Owned Hotel</h3>
+                        <p class="small">Cozy rooms near beach.</p>
+                        <a class="btn" href="#">Book Now</a>
+                    </article>
+                    <article class="section">
+                        <h3>Bed & Breakfast</h3>
+                        <p class="small">Breakfast included, local tips.</p>
+                        <a class="btn" href="#">Book Now</a>
+                    </article>
+                    <article class="section">
+                        <h3>Four-Star Resort</h3>
+                        <p class="small">Pool, spa, on-site dining.</p>
+                        <a class="btn" href="#">Book Now</a>
+                    </article>
+                </section>
+
+                <aside class="section tip">
+                    <strong>Government-Inspected Lodging — Safe for Families</strong>
+                    <p class="small">A curated list of verified properties.</p>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <div class="container inline" style="justify-content:space-between;align-items:center;">
+                <p class="small">© Taniti Tourism • Email: info@taniti.com</p>
+                <div class="inline">
+                    <button class="btn" data-font>Large Text</button>
+                    <div class="inline">
+                        <a href="#" aria-label="Facebook">Facebook</a> • <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
